@@ -1,57 +1,42 @@
-Week 1 – R Scripts
+ R Folder – Week 1
 
-This folder contains R practice scripts for Week 1 of my Business Analytics learning journey. Each script demonstrates key R concepts, data handling, and visualization techniques.
+This folder contains all R scripts and practice for Week 1 of the Business Analytics Learning journey.
 
 📅 Day 1 – R Basics & Importing Data
 
-Concepts Learned:
+**Concepts Learned:**
+- Setting up R and RStudio
+- Variables, vectors, and data frames
+- Importing CSV files
+- Exploring datasets with `head()`, `str()`, and `summary()`
 
-Setting up R and RStudio
+**Business Interpretation:**
+- Data frames = business datasets (e.g., customer info, sales records)
+- Importing data = pulling raw business data into analytics system
+- Basic summaries = quick insights before deeper analysis
 
-Variables, vectors, and data frames
+**Files Added:**
+- `day1_Rpractice.R` – R basics and CSV import code
+- `students.csv` – Sample dataset used for practice
 
-Importing CSV files into R
+ 📅 Day 2 – One-Variable Charts & Data Modification
 
-Exploring datasets with head(), str(), and summary()
+**Concepts Learned:**
+- Histograms → distribution of a numeric variable (`mpg`)
+- Bar charts → visualizing categorical data (`cyl`)
+- Summary statistics → mean, median, min, max for `hp`
+- Data modification:
+  - Added new column `efficiency = mpg / cyl`
+  - Filtered cars with `mpg > 25`
+  - Selected important variables only (`mpg`, `hp`, `cyl`)
 
-Business Interpretation:
+**Business Interpretation:**
+- Histogram → analyze product efficiency across portfolio
+- Bar chart → studying product categories
+- Summary stats → benchmark performance
+- Filtering & KPI → create new business metrics
 
-Data frames in R = business datasets (e.g., customer info, sales records)
+**Files Added:**
+- `day2_Rpractice.R` – Contains code for today's practice
 
-Importing data = pulling raw business data into an analytics system
-
-Basic summaries = quick insights for managers before deep analysis
-
-Files:
-
-day1_Rpractice.R – R basics and CSV import code
-
-students.csv – Sample dataset used for practice
-
-📅 Day 2 – One-Variable Charts & Data Modification
-
-Concepts Learned:
-
-Histograms → Distribution of numeric variables (mpg)
-
-Bar Charts → Visualizing categorical data (cyl)
-
-Summary statistics → Mean, median, min, max (hp)
-
-Data modification → New columns, filtering, selecting important variables
-
-Business Interpretation:
-
-Histogram of mpg → Analyzing product efficiency across a portfolio
-
-Bar chart of cyl → Studying product categories (basic, mid-range, premium)
-
-Summary stats for hp → Benchmarking performance (e.g., horsepower = product strength)
-
-Filtering & new KPI → Focus on high performers
-
-Files:
-
-day2_Rpractice.R – R practice script with charts and data modifications
-
-This README will live inside Week 1/R/ and provide a clear context for anyone looking at your R scripts.
+📌 **Next Steps (Day 3):** Scatterplots and associations between variables (e.g., how horsepower relates to efficiency)
