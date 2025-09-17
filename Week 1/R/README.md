@@ -1,29 +1,5 @@
-<<<<<<< HEAD
-Day 1 – R Basics & Importing Data
-=======
 R Folder – Week 1
->>>>>>> 8af7b5ff01f6100fc860206810e532dedf7d5bea
 
-Concepts Learned:
-
-<<<<<<< HEAD
-Setting up R and RStudio
-
-Variables, vectors, and data frames
-
-Importing CSV files
-
-Exploring datasets with head(), str(), and summary()
-
-Business Interpretation:
-
-Data frames = business datasets (e.g., customer info, sales records)
-
-Importing data = pulling raw business data into analytics system
-
-Basic summaries = quick insights before deeper analysis
-
-=======
 📌 Day 1 – R Basics & Importing Data
 
 Concepts Learned:
@@ -44,7 +20,6 @@ Importing data = pulling raw business data into analytics system
 
 Basic summaries = quick insights before deeper analysis
 
->>>>>>> 8af7b5ff01f6100fc860206810e532dedf7d5bea
 Files Added:
 
 day1_Rpractice.R – R basics and CSV import code
